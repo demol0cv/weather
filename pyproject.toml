@@ -54,7 +54,7 @@ line-ending = "auto"
 
 [tool.ruff.lint]
 ignore = ["E501"]
-fixable = ["RUF022", "I001", "COM812", "F401"]
+fixable = ["ALL"]
 unfixable = []
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
