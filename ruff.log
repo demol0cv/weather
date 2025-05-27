@@ -1,0 +1,82 @@
+2025-05-27 02:27:58.418469500  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `ruff.toml`:
+  - 'fixable' -> 'lint.fixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:27:58.423077200  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 02:27:58.425134900  INFO Configuration file watcher successfully registered
+2025-05-27 02:28:29.049874500  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:33:17.045816400  WARN No settings available for file:///c%3A/Users/lukav/.vscode/extensions/ms-python.vscode-pylance-2025.5.100/dist/typeshed-fallback/stdlib/builtins.pyi - falling back to default settings
+2025-05-27 02:33:17.125001500  WARN No settings available for file:///c%3A/Users/lukav/.vscode/extensions/ms-python.vscode-pylance-2025.5.100/dist/typeshed-fallback/stdlib/builtins.pyi - falling back to default settings
+2025-05-27 02:33:20.083974000  WARN No settings available for file:///c%3A/Users/lukav/.vscode/extensions/ms-python.vscode-pylance-2025.5.100/dist/typeshed-fallback/stdlib/builtins.pyi - falling back to default settings
+2025-05-27 02:36:07.693699200  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:36:16.280588900  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:36:35.489807400  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:38:51.419314200  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `ruff.toml`:
+  - 'fixable' -> 'lint.fixable'
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:39:36.928212500  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `ruff.toml`:
+  - 'fixable' -> 'lint.fixable'
+  - 'unfixable' -> 'lint.unfixable'
+  - 'isort' -> 'lint.isort' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:48:36.550184300  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'fixable' -> 'lint.fixable'
+  - 'ignore' -> 'lint.ignore'
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:49:14.130927800  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:49:44.811615200  INFO Shutdown request received. Waiting for an exit notification...
+2025-05-27 02:49:44.811986100  INFO Exit notification received. Server shutting down...
+2025-05-27 02:49:45.182162800  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'fixable' -> 'lint.fixable'
+  - 'ignore' -> 'lint.ignore'
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:49:45.186162300  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 02:49:45.187654400  INFO Configuration file watcher successfully registered
+2025-05-27 02:50:25.938835700  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:51:52.168419900  INFO Shutdown request received. Waiting for an exit notification...
+2025-05-27 02:51:52.169518400  INFO Exit notification received. Server shutting down...
+2025-05-27 02:52:09.077920100  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'fixable' -> 'lint.fixable'
+  - 'ignore' -> 'lint.ignore'
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 02:52:09.085755900  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 02:52:09.106258400  INFO Configuration file watcher successfully registered
+2025-05-27 02:53:41.256322900  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:57:42.433412300  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:57:52.001993300  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:58:21.391956300  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:59:08.524592400  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 02:59:36.265233100  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:00:00.557854600  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:03:58.935362500  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:04:10.230260100  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:04:18.024142000  WARN No settings available for file:///c%3A/Program%20Files/Python312/Lib/_pydatetime.py - falling back to default settings
+2025-05-27 03:06:26.373378800  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:07:18.162139900  WARN Received notification $/setTrace which does not have a handler.
+2025-05-27 03:10:48.056084500  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'ignore' -> 'lint.ignore'
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 03:11:06.692571000  WARN The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'unfixable' -> 'lint.unfixable' log.target="ruff_workspace::configuration" log.module_path="ruff_workspace::configuration" log.file="crates\\ruff_workspace\\src\\configuration.rs" log.line=1582
+2025-05-27 03:38:01.554586700  INFO Shutdown request received. Waiting for an exit notification...
+2025-05-27 03:38:01.555842500  INFO Exit notification received. Server shutting down...
+2025-05-27 03:38:02.403481000 ERROR Unable to load editor-specified configuration file
+
+Caused by:
+    0: Failed to load configuration `c:\Users\lukav\source\repos\pythons\o-complex`
+    1: Failed to read c:\Users\lukav\source\repos\pythons\o-complex
+    2: Access is denied. (os error 5)
+2025-05-27 03:38:02.447780900 ERROR Unable to load editor-specified configuration file
+
+Caused by:
+    0: Failed to load configuration `c:\Users\lukav\source\repos\pythons\o-complex`
+    1: Failed to read c:\Users\lukav\source\repos\pythons\o-complex
+    2: Access is denied. (os error 5)
+2025-05-27 03:38:02.455612000  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 03:38:02.475844800  INFO Configuration file watcher successfully registered
+2025-05-27 03:38:18.662120000  INFO Shutdown request received. Waiting for an exit notification...
+2025-05-27 03:38:18.666779200  INFO Exit notification received. Server shutting down...
+2025-05-27 03:38:18.845371400  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 03:38:18.847081500  INFO Configuration file watcher successfully registered
+2025-05-27 03:58:40.631717000  INFO Shutdown request received. Waiting for an exit notification...
+2025-05-27 03:58:40.633251800  INFO Exit notification received. Server shutting down...
+2025-05-27 09:47:53.421898100  INFO Registering workspace: c:\Users\lukav\source\repos\pythons\o-complex
+2025-05-27 09:47:53.497260400  INFO Configuration file watcher successfully registered
+2025-05-27 09:48:03.559168900  WARN Received notification $/setTrace which does not have a handler.

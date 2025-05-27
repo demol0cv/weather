@@ -1,0 +1,99 @@
+2025-05-27 02:04:08 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:04:08 - werkzeug - INFO -  * Debugger PIN: 832-604-877
+2025-05-27 02:04:29 - werkzeug - INFO -  * Detected change in 'E:\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:10:27 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:10:27 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:10:27 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 02:10:27 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 02:10:27 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:10:28 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:10:28 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:10:29 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:10:29 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:10:48 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:10:48] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:10:49 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:10:49] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:54 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:54] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:55 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:55] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:56 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:56] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:56 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:56] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:57 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:57] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:57 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:57] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:57 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:57] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:11:57 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 02:11:57] "GET /settings HTTP/1.1" 200 -
+2025-05-27 02:15:29 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:15:30 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:15:33 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:15:33 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:15:34 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:15:34 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:17:16 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:17:16 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:17:19 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:17:19 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:17:19 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:17:19 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:17:58 - werkzeug - INFO -  * Detected change in 'E:\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:17:59 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:18:01 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:01 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:01 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:18:01 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:18:18 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:18:19 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:18:21 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:21 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:21 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:18:21 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:18:27 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:18:27 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:18:30 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:30 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:18:30 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:18:30 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:18:58 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:18:58 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:19:00 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:00 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:00 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:19:00 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:19:32 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:19:32 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:19:34 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:34 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:35 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:19:35 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:19:56 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\__init__.py', reloading
+2025-05-27 02:19:57 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:19:59,370 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:59,371 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:19:59,407 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:19:59,417 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:20:33,174 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:20:33,175 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:20:33,218 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 02:20:33,218 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 02:20:33,220 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:20:35,004 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:20:35,004 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:20:35,040 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:20:35,051 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:21:05,202 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:21:05,204 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:21:05,280 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 02:21:05,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 02:21:05,283 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:21:09,289 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:21:09,292 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-27 02:21:09,354 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 02:21:09,365 - werkzeug - INFO -  * Debugger PIN: 471-547-473
+2025-05-27 02:22:33,633 - werkzeug - INFO -  * Detected change in 'C:\\Users\\lukav\\source\\repos\\pythons\\o-complex\\weather\\__init__.py', reloading
+2025-05-27 02:22:34,615 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:22:40,203 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:24:04,322 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:28:40,133 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:29:05,455 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:32:22,711 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 02:33:34,253 - werkzeug - INFO -  * Restarting with stat

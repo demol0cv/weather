@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Прогноз погоды</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключаем jQuery и jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#city").autocomplete({
+                source: "/autocomplete", // Эндпоинт для автодополнения
+                minLength: 3, // Минимальная длина ввода для начала поиска
+                delay: 300 // Задержка перед отправкой запроса
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Прогноз погоды</h1>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="city" class="form-label">Введите город:</label>
+                <input type="text" class="form-control" id="city" name="city">
+            </div>
+            <button type="submit" class="btn btn-primary">Получить прогноз</button>
+        </form>
+        {% if weather_data %}
+        <h2>Прогноз для {{ weather_data.city }}</h2>
+        {% for key in weather_data.keys() %}
+        <span>{{ key }}</span>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Время</th>
+                    <th>Температура (°C)</th>
+                    <th>Осадки (мм)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for data in weather_data[key] %}
+                <tr>
+                    <td> {{ data.time }} </td>
+                    <td> {{ data.temperature_2m }}</td>
+                    <td> {{ data.precipitation }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endfor %}
+        {% endif %}
+    </div>
+</body>
+</html>

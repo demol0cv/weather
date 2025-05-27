@@ -1,0 +1,10 @@
+.env
+.env.dev
+.venv/
+__pycache__
+.vscode/
+ruff.log
+
+weather.db
+.pre-commit-config.yaml
+flask_session/

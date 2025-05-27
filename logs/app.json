@@ -1,0 +1,45 @@
+{"asctime": "2025-05-27 02:15:33", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:15:33", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:15:34", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:15:34", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:17:16", "name": "werkzeug", "levelname": "INFO", "message": " * Detected change in 'C:\\\\Users\\\\lukav\\\\source\\\\repos\\\\pythons\\\\o-complex\\\\__init__.py', reloading"}
+{"asctime": "2025-05-27 02:19:00,942", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:00,943", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:00,984", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:19:00,993", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:19:32,082", "name": "werkzeug", "levelname": "INFO", "message": " * Detected change in 'C:\\\\Users\\\\lukav\\\\source\\\\repos\\\\pythons\\\\o-complex\\\\__init__.py', reloading"}
+{"asctime": "2025-05-27 02:19:34,955", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:34,956", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:35,003", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:19:35,015", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:19:56,625", "name": "werkzeug", "levelname": "INFO", "message": " * Detected change in 'C:\\\\Users\\\\lukav\\\\source\\\\repos\\\\pythons\\\\o-complex\\\\__init__.py', reloading"}
+{"asctime": "2025-05-27 02:19:59,370", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:59,371", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:19:59,407", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:19:59,417", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:20:33,174", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:20:33,175", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:20:33,218", "name": "werkzeug", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000"}
+{"asctime": "2025-05-27 02:20:33,218", "name": "werkzeug", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"asctime": "2025-05-27 02:20:33,220", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:20:35,004", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:20:35,004", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:20:35,040", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:20:35,051", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:21:05,202", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:21:05,204", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:21:05,280", "name": "werkzeug", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000"}
+{"asctime": "2025-05-27 02:21:05,280", "name": "werkzeug", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"asctime": "2025-05-27 02:21:05,283", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:21:09,289", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:21:09,292", "name": "urllib3.util.retry", "levelname": "DEBUG", "message": "Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)"}
+{"asctime": "2025-05-27 02:21:09,354", "name": "werkzeug", "levelname": "WARNING", "message": " * Debugger is active!"}
+{"asctime": "2025-05-27 02:21:09,365", "name": "werkzeug", "levelname": "INFO", "message": " * Debugger PIN: 471-547-473"}
+{"asctime": "2025-05-27 02:22:33,633", "name": "werkzeug", "levelname": "INFO", "message": " * Detected change in 'C:\\\\Users\\\\lukav\\\\source\\\\repos\\\\pythons\\\\o-complex\\\\weather\\\\__init__.py', reloading"}
+{"asctime": "2025-05-27 02:22:34,615", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:22:40,203", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:24:04,322", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:28:40,133", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:29:05,455", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:32:22,711", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
+{"asctime": "2025-05-27 02:33:34,253", "name": "werkzeug", "levelname": "INFO", "message": " * Restarting with stat"}
