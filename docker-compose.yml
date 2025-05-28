@@ -10,3 +10,6 @@ services:
         required: false
     ports:
       - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
