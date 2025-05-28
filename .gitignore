@@ -13,3 +13,4 @@ weather.db
 .pre-commit-config.yaml
 flask_session/
 .env.prod
+data/
