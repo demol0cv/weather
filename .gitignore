@@ -5,6 +5,8 @@
 __pycache__
 .vscode/
 ruff.log
+logs/
+
 
 # project ignores
 weather.db
