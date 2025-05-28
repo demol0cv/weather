@@ -5,7 +5,7 @@
 1. Клонируем репозиторий:
 
 ```bash
-git clone repo
+git clone git@github.com:demol0cv/weather.git
 ```
 
 2. Конфигурация
