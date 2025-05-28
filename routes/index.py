@@ -1,10 +1,11 @@
 import time
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from flask import Blueprint, render_template, request, session
 
+from weather import settings
 from weather.utils import geocode_city, get_user_history, save_request
 
 
@@ -12,7 +13,7 @@ index_bp = Blueprint("index", __name__)
 
 
 @index_bp.route("/", methods=["GET", "POST"])
-def index():
+def index() -> str:
     # Устанавливаем user_id, если он отсутствует
     if "user_id" not in session:
         session["user_id"] = str(uuid.uuid4())
@@ -35,16 +36,21 @@ def index():
             lat, lon = location.get("latitude"), location.get("longitude")
             # Запрос к Open-Meteo
             url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,precipitation"
+
             response = requests.get(url, timeout=10)
             if response.status_code == 200:
                 weather_data = response.json()
                 hourly_data: list[dict] = []
                 save_request(user_id, location.get("value"), lat, lon)
                 for i, _ in enumerate(weather_data["hourly"]["time"]):
-                    if weather_data["hourly"]["time"][i] >= datetime.now().isoformat():
+                    if (
+                        weather_data["hourly"]["time"][i]
+                        >= datetime.now(tz=timezone.utc).isoformat()
+                    ):
                         t = datetime.strptime(
-                            weather_data["hourly"]["time"][i], "%Y-%m-%dT%H:%M"
-                        )
+                            weather_data["hourly"]["time"][i],
+                            "%Y-%m-%dT%H:%M",
+                        ).replace(tzinfo=timezone.utc)
                         t2 = weather_data["hourly"]["temperature_2m"][i]
                         pcp = weather_data["hourly"]["precipitation"][i]
                         hourly_data.append(
@@ -52,18 +58,18 @@ def index():
                                 "time": t,
                                 "temperature_2m": t2,
                                 "precipitation": pcp,
-                            }
+                            },
                         )
                 for data in hourly_data:
                     str_date: str = datetime.strftime(data["time"], "%Y-%m-%d")
-                    if daily_data.get(str_date, None) is None:
+                    if daily_data.get(str_date) is None:
                         daily_data[str_date] = []
                     daily_data[str_date].append(
                         {
                             "time": datetime.strftime(data["time"], "%H:%M"),
                             "temperature_2m": data["temperature_2m"],
                             "precipitation": data["precipitation"],
-                        }
+                        },
                     )
 
                 weather_data["hourly"] = hourly_data
@@ -73,3 +79,14 @@ def index():
         city=location.get("value") if location is not None else "",
         history=history,
     )
+
+
+@index_bp.route("/settings", methods=["GET"])
+def get_settings():
+    """Возвращает настройки приложения."""
+    if settings.debug:
+        return settings.model_dump_json(
+            indent=4,
+        )
+    return "Hello World!"
+    # Если DEBUG-режим выключен, возвращаем только сообщение "Hello World!"

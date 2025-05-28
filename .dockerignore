@@ -1,6 +1,7 @@
 # common ignores
 .env
 .env.dev
+.env.prod
 .venv/
 __pycache__
 .vscode/
@@ -10,4 +11,3 @@ ruff.log
 weather.db
 .pre-commit-config.yaml
 flask_session/
-.env.prod

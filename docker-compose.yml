@@ -1,0 +1,12 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - path: .env.prod
+        required: true
+      - path: .env.dev
+        required: false
+    ports:
+      - "5000:5000"

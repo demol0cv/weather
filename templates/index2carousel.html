@@ -2,8 +2,17 @@
 <html>
   <head>
     <title>Прогноз погоды</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
     <!-- Подключаем jQuery и jQuery UI -->
     <link
       rel="stylesheet"
@@ -16,177 +25,200 @@
         $("#city").autocomplete({
           source: "/autocomplete", // Эндпоинт для автодополнения
           minLength: 3, // Минимальная длина ввода для начала поиска
-          delay: 100, // Задержка перед отправкой запроса
+          delay: 300, // Задержка перед отправкой запроса
         });
       });
     </script>
     <style>
-  /* Карусель */
-  .carousel {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для выделения */
-    background-color: #f8f9fa; /* Светлый фон */
-    border-radius: 8px;
-    padding: 20px;
-  }
+      /* Карусель */
+      .carousel {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для выделения */
+        background-color: #f8f9fa; /* Светлый фон */
+        border-radius: 8px;
+        padding: 20px;
+      }
 
-  /* Стрелки карусели */
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.1); /* Темный полупрозрачный фон */
-    width: 5%; /* Уменьшенная ширина */
-    border-radius: 5px; /* Скругленные углы */
-    opacity: 1; /* Увеличиваем видимость */
-  }
+      /* Стрелки карусели */
+      .carousel-control-prev,
+      .carousel-control-next {
+        background-color: rgba(0, 0, 0, 0.1); /* Темный полупрозрачный фон */
+        width: 5%; /* Уменьшенная ширина */
+        border-radius: 5px; /* Скругленные углы */
+        opacity: 1; /* Увеличиваем видимость */
+      }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    /* background-color: #007bff; /* Синий фон для иконок */
-    border-radius: 50%; /* Круглые иконки */
-    padding: 15px; /* Увеличиваем размер иконок */
-    background-size: 50%; /* Уменьшаем размер стрелки внутри */
-  }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        /* background-color: #007bff; /* Синий фон для иконок */
+        border-radius: 50%; /* Круглые иконки */
+        padding: 15px; /* Увеличиваем размер иконок */
+        background-size: 50%; /* Уменьшаем размер стрелки внутри */
+      }
 
-  .carousel-control-prev:hover,
-  .carousel-control-next:hover {
-    background-color: rgba(0, 0, 0, 0.3); /* Темнее при наведении */
-  }
+      .carousel-control-prev:hover,
+      .carousel-control-next:hover {
+        background-color: rgba(0, 0, 0, 0.3); /* Темнее при наведении */
+      }
 
-  /* Нижние индикаторы */
-  .carousel-indicators button {
-    background-color: #536575; /* Серый цвет для неактивных */
-    width: 12px; /* Увеличиваем размер */
-    height: 12px; /* Круглые индикаторы */
-    /* border-radius: 50%; /* Круглая форма */
-    margin: 0 5px; /* Отступы между индикаторами */
-  }
+      /* Нижние индикаторы */
+      .carousel-indicators button {
+        background-color: #536575; /* Серый цвет для неактивных */
+        width: 12px; /* Увеличиваем размер */
+        height: 12px; /* Круглые индикаторы */
+        /* border-radius: 50%; /* Круглая форма */
+        margin: 0 5px; /* Отступы между индикаторами */
+      }
 
-  .carousel-indicators .active {
-    background-color: #007bff; /* Синий цвет для активного */
-  }
+      .carousel-indicators .active {
+        background-color: #007bff; /* Синий цвет для активного */
+      }
 
-  /* Карточки */
-  .card {
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+      /* Карточки */
+      .card {
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 
-  .card-header {
-    background-color: #007bff;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 0.9rem; /* Уменьшаем шрифт для узких карточек */
-  }
+      .card-header {
+        background-color: #007bff;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 0.9rem; /* Уменьшаем шрифт для узких карточек */
+      }
 
-  /* Увеличиваем ширину карточек */
-  .col-md-1 {
-    flex: 0 0 auto;
-    width: 12%; /* Увеличиваем ширину для читаемости */
-  }
+      /* Увеличиваем ширину карточек */
+      .col-md-1 {
+        flex: 0 0 auto;
+        width: 12%; /* Увеличиваем ширину для читаемости */
+      }
 
-  @media (max-width: 576px) {
-    .col-md-1 {
-      width: 50%; /* На мобильных устройствах карточки шире */
-    }
-    .card-header {
-      font-size: 0.8rem;
-    }
-    .card {
-      font-size: 0.85rem;
-    }
-  }
-</style>
-
+      @media (max-width: 576px) {
+        .col-md-1 {
+          width: 50%; /* На мобильных устройствах карточки шире */
+        }
+        .card-header {
+          font-size: 0.8rem;
+        }
+        .card {
+          font-size: 0.85rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-        <h1>Прогноз погоды</h1>
-        <form method="POST">
-            <div class="mb-3">
-            <label for="city" class="form-label">Введите город:</label>
-            <input type="text" class="form-control" id="city" name="city" />
-            </div>
-            <button type="submit" class="btn btn-primary">Получить прогноз</button>
-        </form>
-        {% if weather_data %}
-            <h2>Прогноз для {{ city }}</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="60000">
-              <div class="carousel-indicators">
-                {% for key in weather_data.keys() %}
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="{{ loop.index0 }}"
-                  {% if loop.first %}class="active" aria-current="true"{% endif %}
-                  aria-label="Slide {{ loop.index }}"
-                ></button>
-                {% endfor %}
-              </div>
-              <div class="carousel-inner">
-                {% for key in weather_data.keys() %}
-                  <div class="carousel-item {% if loop.first %}active{% endif %}">
-                    <div>
-                        <div class="row">
-                            <div>
-                            <div class="fs-6 fw-bold text-center bg-dark text-white">{{ key[:10] }}</div>
-                            <div class="row px-3">
-                            {% for data in weather_data[key] %}
-                                <div class="card col-md-1 m-1">
-                                    <div class="col bg-light">
-                                        <div  class="card-header fs-6 fw-bold">{{ data.time }}</div>
-                                        <div  class="fs-6">{{ data.temperature_2m }} °C</div>
-                                        <div class="fs-6">{{ data.precipitation }} мм</div>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+      <h1>Прогноз погоды</h1>
+      <form method="POST">
+        <div class="mb-3">
+          <label for="city" class="form-label">Введите город:</label>
+          <input type="text" class="form-control" id="city" name="city" />
+        </div>
+        <button type="submit" class="btn btn-primary">Получить прогноз</button>
+      </form>
+      {% if weather_data %}
+      <h2>Прогноз для {{ city }}</h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="60000"
+      >
+        <div class="carousel-indicators">
+          {% for key in weather_data.keys() %}
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="{{ loop.index0 }}"
+            {%
+            if
+            loop.first
+            %}class="active"
+            aria-current="true"
+            {%
+            endif
+            %}
+            aria-label="Slide {{ loop.index }}"
+          ></button>
+          {% endfor %}
+        </div>
+        <div class="carousel-inner">
+          {% for key in weather_data.keys() %}
+          <div class="carousel-item {% if loop.first %}active{% endif %}">
+            <div>
+              <div class="row">
+                <div>
+                  <div class="fs-6 fw-bold text-center bg-dark text-white">
+                    {{ key[:10] }}
                   </div>
-                {% endfor %}
+                  <div class="row px-3">
+                    {% for data in weather_data[key] %}
+                    <div class="card col-md-1 m-1">
+                      <div class="col bg-light">
+                        <div class="card-header fs-6 fw-bold">
+                          {{ data.time }}
+                        </div>
+                        <div class="fs-6">{{ data.temperature_2m }} °C</div>
+                        <div class="fs-6">{{ data.precipitation }} мм</div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Предыдущий</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Следующий</span>
-              </button>
             </div>
-        {% endif %}
-        <h2>История запросов</h2>
-        {% if history %}
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Город</th>
-                    <th>Время запроса</th>
-                    <th>Действие</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for city, lat, lon, request_time in history %}
-                <tr>
-                    <td>{{ city }}</td>
-                    <td>{{ request_time }}</td>
-                    <td>
-                        <form method="POST" style="display:inline;">
-                            <input type="hidden" name="city" value="{{ city }}">
-                            <button type="submit" class="btn btn-link">Повторить</button>
-                        </form>
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        {% else %}
-        <p>История запросов пуста.</p>
-        {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+      {% endif %}
+      <h2>История запросов</h2>
+      {% if history %}
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Город</th>
+            <th>Время запроса</th>
+            <th>Действие</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for city, lat, lon, request_time in history %}
+          <tr>
+            <td>{{ city }}</td>
+            <td>{{ request_time }}</td>
+            <td>
+              <form method="POST" style="display: inline">
+                <input type="hidden" name="city" value="{{ city }}" />
+                <button type="submit" class="btn btn-link">Повторить</button>
+              </form>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p>История запросов пуста.</p>
+      {% endif %}
     </div>
-
-    
   </body>
 </html>
