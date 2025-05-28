@@ -3,6 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    env_file:
+      - path: .env
     ports:
       - "5000:5000"
     volumes:
